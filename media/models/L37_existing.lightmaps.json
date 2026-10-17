@@ -1,0 +1,14 @@
+{
+ "scale": 4.0,
+ "objects": {
+  "BAKE_floors": {
+   "file": "lm_before_floors.jpg"
+  },
+  "BAKE_walls": {
+   "file": "lm_before_walls.jpg"
+  },
+  "BAKE_ceilings": {
+   "file": "lm_before_ceilings.jpg"
+  }
+ }
+}

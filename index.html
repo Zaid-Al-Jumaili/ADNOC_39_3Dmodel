@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Level 37 · Existing floor · 3D model</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230C1422'/%3E%3Cpath d='M12 44 C22 20 42 20 52 44' fill='none' stroke='%23D6BE95' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='27' r='4' fill='%23D6BE95'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.min.js", "three/addons/": "./vendor/three/jsm/" } }
+</script>
+</head>
+<body>
+<div class="model" id="viewer">
+  <canvas></canvas>
+  <div class="tags"></div>
+  <div class="m-help">Drag to orbit · scroll to zoom · click a zone label to fly there</div>
+  <div class="m-load">
+    <div style="text-align:center">
+      <div class="label">Loading the 3D model</div>
+      <div class="bar"><i></i></div>
+      <p class="faint">First load can take a few seconds</p>
+    </div>
+  </div>
+</div>
+<noscript><p style="padding:40px;color:#ccc">This page needs JavaScript. Please open it with Start_Existing_3D_Model.bat.</p></noscript>
+<script type="module" src="viewer.js"></script>
+</body>
+</html>
